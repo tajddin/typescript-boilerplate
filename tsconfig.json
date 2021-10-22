@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": true,
+        "strict": false,
+        "lib": ["es2015", "es2016", "es2017", "esnext", "dom", "es5"],
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "outDir": "build",
+        "sourceMap": true,
+        "incremental": true
+    },
+    "include": ["src", "config/*", ".env", "package.json"],
+    "exclude": ["node_modules", "**/*.d.ts"]
+}
